@@ -1,8 +1,14 @@
 # Kotlin Multiplatform Project
 
-KMP-API is a Kotlin Multiplatform project aimed at [brief project description, e.g., "building a shared library for Android and iOS"]. Utilizing the power of Kotlin Multiplatform, this project demonstrates how to share code seamlessly across Android, iOS, and more.
+KMP-API is a Kotlin Multiplatform project aimed at to understand Simple API code shared on Both platform. 
+Utilizing the power of Kotlin Multiplatform, this project demonstrates how to share code seamlessly across Android, iOS.
 
-Screenshots
+# Data Source
+
+This project fetches its data from the SpaceX Data API. The SpaceX API provides company, vehicle, launch, and event data for SpaceX.
+[SpaceX Rockets API Endpoint](https://api.spacexdata.com/v4/rockets)
+
+# Screenshots
 <table>
   <tr>
     <td>Android</td>
@@ -20,34 +26,29 @@ Screenshots
 - Kotlin serialization with version `1.8.20`.
 - Coroutines support with version `1.7.1`.
 - Ktor client for network operations with version `2.3.2`.
-- Kotlinx DateTime library with version `0.4.0`.
 
 ## Getting Started
 
 ### Prerequisites
 
 - Kotlin 1.8.20 or later.
-- Android SDK with compileSdk 33 and minSdk 26.
+- Android SDK with compileSdk 34 and minSdk 26.
+- ioS above 15.0
 
 ### Setting up the project
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/projectname.git](https://github.com/deepakkanyan/KMP-API.git)
+   git clone https://github.com/deepakkanyan/KMP-API.git
    ```
 
 2. Navigate to the project directory and ensure you have the specified prerequisites installed.
-
-### Building the project
-
-[Instructions on how to build your project, e.g., "Use Gradle to build the project for the desired platform."]
 
 ## Dependencies
 
 - **Kotlinx Coroutines**: For managing asynchronous tasks and more.
 - **Ktor**: A flexible and powerful Kotlin client for networking tasks.
-- **Kotlinx DateTime**: A library for date and time operations.
 
 ## Acknowledgments
 
