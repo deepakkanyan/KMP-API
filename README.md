@@ -2,7 +2,17 @@
 
 KMP-API is a Kotlin Multiplatform project aimed at [brief project description, e.g., "building a shared library for Android and iOS"]. Utilizing the power of Kotlin Multiplatform, this project demonstrates how to share code seamlessly across Android, iOS, and more.
 
-![Final Result]((https://github.com/deepakkanyan/KMP-API/blob/master/images/android.png))
+Screenshots
+<table>
+  <tr>
+    <td>Android</td>
+     <td>iOS</td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="https://github.com/deepakkanyan/KMP-API/blob/master/images/android.png" alt="Android screenshot" width="200"/></td>
+    <td valign="top"><img src="https://github.com/deepakkanyan/KMP-API/blob/master/images/ios.png" alt="iOS screenshot" width="200"/></td>
+  </tr>
+ </table>
 
 ## Features
 
