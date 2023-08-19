@@ -34,7 +34,7 @@ Screenshots
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/projectname.git
+   git clone https://github.com/yourusername/projectname.git](https://github.com/deepakkanyan/KMP-API.git)
    ```
 
 2. Navigate to the project directory and ensure you have the specified prerequisites installed.
