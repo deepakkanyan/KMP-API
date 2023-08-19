@@ -1,4 +1,4 @@
-# Kotlin Multiplatform Project
+# Kotlin Multiplatform Project [ComposeUI, SwiftUI]
 
 KMP-API is a Kotlin Multiplatform project aimed at to understand Simple API code shared on Both platform. 
 Utilizing the power of Kotlin Multiplatform, this project demonstrates how to share code seamlessly across Android, iOS.
@@ -26,6 +26,8 @@ This project fetches its data from the SpaceX Data API. The SpaceX API provides 
 - Kotlin serialization with version `1.8.20`.
 - Coroutines support with version `1.7.1`.
 - Ktor client for network operations with version `2.3.2`.
+- ComposeUI for Android
+- SwiftUI for iOS
 
 ## Getting Started
 
