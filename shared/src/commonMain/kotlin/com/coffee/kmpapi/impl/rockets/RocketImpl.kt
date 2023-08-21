@@ -7,6 +7,6 @@ import io.ktor.client.request.get
 
 class RocketImpl : RocketRepo {
     override suspend fun getAllRocketDetailsList(): List<RocketModel> {
-        return ProjectXApi.httpClient.get(ApisUrls.EndUrl.plus("rockets")).body()
+        return ProjectXApi.httpClient.get(ApisUrls.EndUrlV4.plus("rockets")).body()
     }
 }

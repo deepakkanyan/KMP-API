@@ -52,9 +52,9 @@ class MainActivity : ComponentActivity() {
                 startDestination = BottomItems.RocketUI.route,
                 modifier = Modifier.padding(it)
             ) {
-                composable(BottomItems.RocketUI.route) { RocketsUI(navController) }
-                composable(BottomItems.MissionUI.route) { MissionsUI(navController) }
-                composable(BottomItems.CapsuleUI.route) { CapsulesUI(navController) }
+                composable(BottomItems.RocketUI.route) { RocketsUI() }
+                composable(BottomItems.MissionUI.route) { MissionsUI() }
+                composable(BottomItems.CapsuleUI.route) { CapsulesUI() }
             }
         }
     }

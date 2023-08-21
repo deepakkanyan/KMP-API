@@ -3,6 +3,7 @@ package com.coffee.kmpapi.android.rockets
 
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.BoxScope
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -27,7 +28,7 @@ import com.coffee.kmpapi.impl.rockets.RocketModel
 import com.coffee.kmpapi.impl.rockets.usecases.RocketResponse
 
 @Composable
-fun RocketsUI(navController: NavController) {
+fun RocketsUI() {
     val viewModel: RocketViewModel = viewModel()
     val rocket = viewModel.rocketList.collectAsState().value
 
@@ -37,11 +38,11 @@ fun RocketsUI(navController: NavController) {
 }
 
 @Composable
-fun RocketView(rocket: RocketResponse) {
+fun BoxScope.RocketView(rocket: RocketResponse) {
 
     when (rocket) {
         is RocketResponse.Loading -> {
-            CircularProgressIndicator()
+            CircularProgressIndicator(modifier = Modifier.align(Alignment.Center))
         }
 
         is RocketResponse.Success -> {
@@ -49,11 +50,10 @@ fun RocketView(rocket: RocketResponse) {
         }
 
         is RocketResponse.Error -> {
-            Text(text = rocket.e.toString())
+            Text(text = rocket.e.toString(), modifier = Modifier.align(Alignment.Center))
         }
 
     }
-
 
 }
 
