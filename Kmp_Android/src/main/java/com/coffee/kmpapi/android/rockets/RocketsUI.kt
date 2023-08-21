@@ -99,7 +99,10 @@ fun ShowRocketList(rocket: List<RocketModel>) {
                     Column(modifier = Modifier.padding(10.dp)) {
                         Text(text = it.name, style = MaterialTheme.typography.titleLarge)
                         Text(text = it.company, style = MaterialTheme.typography.labelMedium)
-                        Text(text = it.description, style = MaterialTheme.typography.labelMedium)
+                        Text(
+                            text = it.description, style = MaterialTheme.typography.labelMedium,
+                            color = MaterialTheme.colorScheme.secondary
+                        )
 
                     }
 
