@@ -14,15 +14,18 @@ struct RocketView: View {
     @ObservedObject var viewModel = RocketViewModel()
     
     var body: some View {
+        
         Group {
             switch viewModel.rocketResponse {
             case is RocketResponse.Loading:
                 ProgressView()
             case let success as RocketResponse.Success:
+                
                 List(success.data) { rocket in
                     RocketCardView(rocketInfo: rocket).listRowSeparator(.hidden)
                         .foregroundColor(.none)
                 }.background(Color.clear).listStyle(PlainListStyle())
+                
             case let error as RocketResponse.Error:
                 Text("Error: \(error.e)")
             default:

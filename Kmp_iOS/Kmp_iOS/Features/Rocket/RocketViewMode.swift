@@ -20,11 +20,14 @@ class RocketViewModel: ObservableObject {
     
     func fetchRockets() {
         GetRocketListUseCase().invoke { response, error in
+            
             if let successResponse = response as? RocketResponse.Success {
                 self.rocketResponse = .Success(data: successResponse.data)
-            } else if let error = error as? RocketResponse.Error {
+            }
+             else if let error = error as? RocketResponse.Error {
                 self.rocketResponse = .Error(e: error.e)
-            } else {
+            }
+             else {
                 self.rocketResponse = .Loading.shared
             }
         }
