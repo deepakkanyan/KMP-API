@@ -17,6 +17,8 @@
 		0A2FA1D02A904B5D00504A45 /* RocketViewMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2FA1CF2A904B5D00504A45 /* RocketViewMode.swift */; };
 		0A2FA1D22A9073D200504A45 /* RocketCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2FA1D12A9073D200504A45 /* RocketCardView.swift */; };
 		0A2FA1D42A9125A300504A45 /* colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A2FA1D32A9125A300504A45 /* colors.xcassets */; };
+		0A2FA1D62A969B6500504A45 /* MissionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2FA1D52A969B6500504A45 /* MissionViewModel.swift */; };
+		0A2FA1D82A969B8C00504A45 /* MissionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2FA1D72A969B8C00504A45 /* MissionCardView.swift */; };
 		2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2152FB032600AC8F00CF470E /* iOSApp.swift */; };
 		7555FF83242A565900829871 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555FF82242A565900829871 /* ContentView.swift */; };
 /* End PBXBuildFile section */
@@ -45,6 +47,8 @@
 		0A2FA1CF2A904B5D00504A45 /* RocketViewMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketViewMode.swift; sourceTree = "<group>"; };
 		0A2FA1D12A9073D200504A45 /* RocketCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketCardView.swift; sourceTree = "<group>"; };
 		0A2FA1D32A9125A300504A45 /* colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = colors.xcassets; sourceTree = "<group>"; };
+		0A2FA1D52A969B6500504A45 /* MissionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionViewModel.swift; sourceTree = "<group>"; };
+		0A2FA1D72A969B8C00504A45 /* MissionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionCardView.swift; sourceTree = "<group>"; };
 		2152FB032600AC8F00CF470E /* iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSApp.swift; sourceTree = "<group>"; };
 		7555FF7B242A565900829871 /* Kmp_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kmp_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7555FF82242A565900829871 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -93,6 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				0A2FA1C92A90441200504A45 /* MissionUI.swift */,
+				0A2FA1D52A969B6500504A45 /* MissionViewModel.swift */,
+				0A2FA1D72A969B8C00504A45 /* MissionCardView.swift */,
 			);
 			path = Mission;
 			sourceTree = "<group>";
@@ -248,10 +254,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */,
+				0A2FA1D62A969B6500504A45 /* MissionViewModel.swift in Sources */,
 				0A2FA1CC2A90443500504A45 /* CapsuleUI.swift in Sources */,
 				0A2FA1CA2A90441200504A45 /* MissionUI.swift in Sources */,
 				0A2FA1CE2A90485000504A45 /* TabItem.swift in Sources */,
 				0A2FA1C62A90306800504A45 /* DashboardView.swift in Sources */,
+				0A2FA1D82A969B8C00504A45 /* MissionCardView.swift in Sources */,
 				0A2FA1C82A90309600504A45 /* RocketView.swift in Sources */,
 				7555FF83242A565900829871 /* ContentView.swift in Sources */,
 				0A2FA1D02A904B5D00504A45 /* RocketViewMode.swift in Sources */,
