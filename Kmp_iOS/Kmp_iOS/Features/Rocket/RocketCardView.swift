@@ -18,7 +18,7 @@ struct RocketCardView: View {
             Spacer(minLength: 30)
             rocketInfoView
         }
-        .background(Color("surface"))
+        .background(Color.surface)
         .cornerRadius(8)
         .shadow(radius: 2)
     }

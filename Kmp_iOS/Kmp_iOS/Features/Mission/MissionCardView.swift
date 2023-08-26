@@ -9,8 +9,18 @@
 import SwiftUI
 
 struct MissionCardView: View {
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading) {
+             
+            Spacer(minLength: 30)
+            
+            
+             
+        }
+        .background(Color("surface"))
+        .cornerRadius(8)
+        .shadow(radius: 2)
     }
 }
 

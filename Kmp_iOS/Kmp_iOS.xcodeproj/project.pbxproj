@@ -19,6 +19,8 @@
 		0A2FA1D42A9125A300504A45 /* colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A2FA1D32A9125A300504A45 /* colors.xcassets */; };
 		0A2FA1D62A969B6500504A45 /* MissionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2FA1D52A969B6500504A45 /* MissionViewModel.swift */; };
 		0A2FA1D82A969B8C00504A45 /* MissionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2FA1D72A969B8C00504A45 /* MissionCardView.swift */; };
+		0A554D7E2A9A3C4100009D59 /* LinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A554D7D2A9A3C4100009D59 /* LinkView.swift */; };
+		0A554D812A9A4A8C00009D59 /* MyColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A554D802A9A4A8C00009D59 /* MyColors.swift */; };
 		2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2152FB032600AC8F00CF470E /* iOSApp.swift */; };
 		7555FF83242A565900829871 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555FF82242A565900829871 /* ContentView.swift */; };
 /* End PBXBuildFile section */
@@ -49,6 +51,8 @@
 		0A2FA1D32A9125A300504A45 /* colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = colors.xcassets; sourceTree = "<group>"; };
 		0A2FA1D52A969B6500504A45 /* MissionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionViewModel.swift; sourceTree = "<group>"; };
 		0A2FA1D72A969B8C00504A45 /* MissionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionCardView.swift; sourceTree = "<group>"; };
+		0A554D7D2A9A3C4100009D59 /* LinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkView.swift; sourceTree = "<group>"; };
+		0A554D802A9A4A8C00009D59 /* MyColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColors.swift; sourceTree = "<group>"; };
 		2152FB032600AC8F00CF470E /* iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSApp.swift; sourceTree = "<group>"; };
 		7555FF7B242A565900829871 /* Kmp_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kmp_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7555FF82242A565900829871 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -121,6 +125,31 @@
 			path = Capsoule;
 			sourceTree = "<group>";
 		};
+		0A554D7B2A9A3BFB00009D59 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				0A554D7F2A9A4A7900009D59 /* Extentions */,
+				0A554D7C2A9A3C1D00009D59 /* CommonUI */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		0A554D7C2A9A3C1D00009D59 /* CommonUI */ = {
+			isa = PBXGroup;
+			children = (
+				0A554D7D2A9A3C4100009D59 /* LinkView.swift */,
+			);
+			path = CommonUI;
+			sourceTree = "<group>";
+		};
+		0A554D7F2A9A4A7900009D59 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				0A554D802A9A4A8C00009D59 /* MyColors.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
 		7555FF72242A565900829871 = {
 			isa = PBXGroup;
 			children = (
@@ -141,13 +170,14 @@
 		7555FF7D242A565900829871 /* Kmp_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				0A2FA1D32A9125A300504A45 /* colors.xcassets */,
-				0A2FA1C12A902FF400504A45 /* Features */,
 				0A2FA1C02A902FE300504A45 /* Main */,
+				0A2FA1C12A902FF400504A45 /* Features */,
+				0A554D7B2A9A3BFB00009D59 /* DesignSystem */,
 				058557BA273AAA24004C7B11 /* Assets.xcassets */,
+				0A2FA1D32A9125A300504A45 /* colors.xcassets */,
 				7555FF82242A565900829871 /* ContentView.swift */,
-				7555FF8C242A565B00829871 /* Info.plist */,
 				2152FB032600AC8F00CF470E /* iOSApp.swift */,
+				7555FF8C242A565B00829871 /* Info.plist */,
 				058557D7273AAEEB004C7B11 /* Preview Content */,
 			);
 			path = Kmp_iOS;
@@ -257,12 +287,14 @@
 				0A2FA1D62A969B6500504A45 /* MissionViewModel.swift in Sources */,
 				0A2FA1CC2A90443500504A45 /* CapsuleUI.swift in Sources */,
 				0A2FA1CA2A90441200504A45 /* MissionUI.swift in Sources */,
+				0A554D812A9A4A8C00009D59 /* MyColors.swift in Sources */,
 				0A2FA1CE2A90485000504A45 /* TabItem.swift in Sources */,
 				0A2FA1C62A90306800504A45 /* DashboardView.swift in Sources */,
 				0A2FA1D82A969B8C00504A45 /* MissionCardView.swift in Sources */,
 				0A2FA1C82A90309600504A45 /* RocketView.swift in Sources */,
 				7555FF83242A565900829871 /* ContentView.swift in Sources */,
 				0A2FA1D02A904B5D00504A45 /* RocketViewMode.swift in Sources */,
+				0A554D7E2A9A3C4100009D59 /* LinkView.swift in Sources */,
 				0A2FA1D22A9073D200504A45 /* RocketCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

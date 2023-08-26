@@ -12,7 +12,7 @@ import Foundation
 class MissionViewModel : ObservableObject{
     
     
-    
+   // @Published var rocketResponse: KmpResponse = .Loading.shared
     
     
 }
