@@ -1,7 +1,7 @@
 package com.coffee.kmpapi.impl.rockets.usecases
 
 import com.coffee.kmpapi.impl.rockets.RocketImpl
-import com.coffee.kmpapi.impl.rockets.RocketModel
+import com.coffee.kmpapi.impl.rockets.data.RocketResponse
 
 object GetRocketListUseCase {
     private val repo = RocketImpl()
@@ -12,10 +12,4 @@ object GetRocketListUseCase {
             RocketResponse.Error(e)
         }
     }
-}
-
-sealed class RocketResponse {
-    object Loading : RocketResponse()
-    data class Error(val e: Exception) : RocketResponse()
-    data class Success(val data: List<RocketModel>) : RocketResponse()
 }

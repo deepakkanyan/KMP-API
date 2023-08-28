@@ -12,35 +12,33 @@ import shared
 
 class MissionViewModel : ObservableObject{
     
-    @Published var missionResponse: KmpResponse<[MissionModel]>? // Nullable because Kotlin types are nullable
+    @Published var missionResponse: MissionResponse = .Loading.shared
         
         init() {
             fetchMissions()
         }
         
+    
         func fetchMissions() {
-            GetMissionListUseCase().invoke { kmpResponse,arg ,arg\\\  in // Replace with your actual method
+            GetMissionListUseCase().invoke { response, error in
                 
-                if let successResponse = kmpResponse as? SharedCode.KmpResponse.Success {
-                    self.missionResponse = .success(data: successResponse.data)
+                if let successResponse = response as? MissionResponse.Success {
+                    self.missionResponse = .Success(data: successResponse.data)
                 }
-                else if let errorResponse = kmpResponse as? SharedCode.KmpResponse.Error {
-                    self.missionResponse = .error(exception: errorResponse.exception)
+                 else if let error = error as? MissionResponse.Error {
+                    self.missionResponse = .Error(e: error.e)
                 }
-                else if kmpResponse is SharedCode.KmpResponse.Loading {
-                    self.missionResponse = .loading
-                }
-                else {
-                    // handle unexpected cases
+                 else {
+                    self.missionResponse = .Loading.shared
                 }
             }
         }
+}
 
-    
-    
 
-    
-    
-    
-    
+
+extension MissionModel: Identifiable {
+    public var id: String {
+        return "\(missionId)"
+    }
 }

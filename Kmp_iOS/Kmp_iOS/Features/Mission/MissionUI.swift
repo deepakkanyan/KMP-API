@@ -7,10 +7,32 @@
 //
 
 import SwiftUI
+import shared
 
 struct MissionUI: View {
+    
+    @ObservedObject var viewModel = MissionViewModel()
+    
     var body: some View {
-        Text("MissionUI")
+        Group {
+            switch viewModel.missionResponse {
+            case is MissionResponse.Loading:
+                ProgressView()
+            case let success as MissionResponse.Success:
+                List(success.data) { missionInfo in
+                    MissionCardView(missionInfo: missionInfo).listRowSeparator(.hidden)
+                        .foregroundColor(.none)
+                }.background(Color.clear).listStyle(PlainListStyle())
+                
+            case let error as MissionResponse.Error:
+                Text("Error: \(error.e)")
+            default:
+                EmptyView()
+            }
+        }
+        .onAppear {
+            viewModel.fetchMissions()
+        }.navigationTitle("Missions")
     }
 }
 

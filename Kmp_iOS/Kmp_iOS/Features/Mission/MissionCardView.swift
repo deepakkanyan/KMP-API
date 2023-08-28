@@ -7,20 +7,33 @@
 //
 
 import SwiftUI
+import shared
 
 struct MissionCardView: View {
     
+    var missionInfo: MissionModel
+
     var body: some View {
-        VStack(alignment: .leading) {
-             
-            Spacer(minLength: 30)
-            
-            
-             
+        VStack(alignment: .trailing) {
+        VStack(alignment: .leading,spacing: 10){
+           Text(missionInfo.missionName).font(.body)
+           Text(missionInfo.description_).font(.caption2)
+            linkRow
+            }.padding()
         }
-        .background(Color("surface"))
+        .background(Color.surface)
         .cornerRadius(8)
         .shadow(radius: 2)
+    }
+    
+    
+    private var linkRow: some View {
+    
+        HStack(spacing: 15){
+            ClickableIconView(icon: "info.circle.fill", linkText:  missionInfo.website)
+            ClickableIconView(icon: "person.circle.fill", linkText:  missionInfo.website)
+            ClickableIconView(icon: "house.circle.fill", linkText:  missionInfo.website)
+        }
     }
 }
 

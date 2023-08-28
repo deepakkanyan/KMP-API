@@ -1,4 +1,4 @@
-package com.coffee.kmpapi.impl.mission
+package com.coffee.kmpapi.impl.mission.model
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

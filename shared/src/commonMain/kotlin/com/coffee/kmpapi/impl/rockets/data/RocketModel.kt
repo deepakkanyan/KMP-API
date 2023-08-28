@@ -1,4 +1,4 @@
-package com.coffee.kmpapi.impl.rockets
+package com.coffee.kmpapi.impl.rockets.data
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

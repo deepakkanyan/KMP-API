@@ -1,16 +1,15 @@
 package com.coffee.kmpapi.impl.mission.usecase
 
 import com.coffee.kmpapi.impl.mission.MissionImpl
-import com.coffee.kmpapi.impl.mission.MissionModel
-import com.coffee.kmpapi.utils.KmpResponse
+import com.coffee.kmpapi.impl.mission.model.MissionResponse
 
 object GetMissionListUseCase {
     private val repo = MissionImpl()
-    suspend operator fun invoke(): KmpResponse<List<MissionModel>> {
+    suspend operator fun invoke(): MissionResponse  {
         return try {
-            KmpResponse.Success(repo.getMissionDetailsList())
+            MissionResponse.Success(repo.getMissionDetailsList())
         } catch (e: Exception) {
-            KmpResponse.Error(e)
+            MissionResponse.Error(e)
         }
     }
 }

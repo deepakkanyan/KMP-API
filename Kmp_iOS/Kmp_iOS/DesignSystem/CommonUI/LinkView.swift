@@ -15,11 +15,7 @@ struct ClickableIconView: View {
     let linkText: String?
     
     var body: some View {
-       
-   Image(systemName: icon).font(.largeTitle)
-        .padding()
-        .background(Color.gray.opacity(0.2))
-        .cornerRadius(10)
+        Image(systemName: icon).font(.title2).foregroundColor(Color.onPrimary)
         .onTapGesture {
             if let urlString = linkText, let url = URL(string: urlString) {
                             if UIApplication.shared.canOpenURL(url) {
@@ -30,3 +26,12 @@ struct ClickableIconView: View {
     }
 }
  
+
+struct ClickableIconView_Previews: PreviewProvider {
+    static var previews: some View {
+        HStack{
+            ClickableIconView(icon: "info.circle.fill", linkText:  "missionInfo.website")
+            ClickableIconView(icon: "person.circle.fill", linkText: " missionInfo.website")
+        }
+    }
+}

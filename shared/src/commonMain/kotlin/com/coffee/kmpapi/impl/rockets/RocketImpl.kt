@@ -1,5 +1,6 @@
 package com.coffee.kmpapi.impl.rockets
 
+import com.coffee.kmpapi.impl.rockets.data.RocketModel
 import com.coffee.kmpapi.remote.ProjectXApi
 import com.coffee.kmpapi.utils.ApisUrls
 import io.ktor.client.call.body

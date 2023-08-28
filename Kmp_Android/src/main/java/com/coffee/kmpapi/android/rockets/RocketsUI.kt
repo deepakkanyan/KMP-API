@@ -22,10 +22,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import androidx.navigation.NavController
 import coil.compose.AsyncImage
-import com.coffee.kmpapi.impl.rockets.RocketModel
-import com.coffee.kmpapi.impl.rockets.usecases.RocketResponse
+import com.coffee.kmpapi.impl.rockets.data.RocketModel
+import com.coffee.kmpapi.impl.rockets.data.RocketResponse
 
 @Composable
 fun RocketsUI() {
