@@ -13,7 +13,7 @@ data class CapModel(
     @SerialName("land_landings")
     val landLandings: Long,
     @SerialName("last_update")
-    val lastUpdate: String,
+    val lastUpdate: String? = null,
     val launches: List<String>,
     val serial: String,
     val status: String,

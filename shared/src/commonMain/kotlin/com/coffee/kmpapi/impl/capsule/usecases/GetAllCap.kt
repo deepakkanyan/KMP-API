@@ -3,7 +3,7 @@ package com.coffee.kmpapi.impl.capsule.usecases
 import com.coffee.kmpapi.impl.capsule.CapImpl
 import com.coffee.kmpapi.impl.capsule.model.CapResponse
 
-class GetAllCap {
+object GetAllCap {
     private val capImpl = CapImpl()
     suspend operator fun invoke(): CapResponse {
         return try {
