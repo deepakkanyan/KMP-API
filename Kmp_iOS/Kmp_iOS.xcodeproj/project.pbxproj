@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		058557BB273AAA24004C7B11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058557BA273AAA24004C7B11 /* Assets.xcassets */; };
 		058557D9273AAEEB004C7B11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058557D8273AAEEB004C7B11 /* Preview Assets.xcassets */; };
+		0A062C292A9D4ABE002479D3 /* CapViewMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A062C282A9D4ABE002479D3 /* CapViewMode.swift */; };
 		0A2FA1C62A90306800504A45 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2FA1C52A90306800504A45 /* DashboardView.swift */; };
 		0A2FA1C82A90309600504A45 /* RocketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2FA1C72A90309600504A45 /* RocketView.swift */; };
 		0A2FA1CA2A90441200504A45 /* MissionUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2FA1C92A90441200504A45 /* MissionUI.swift */; };
@@ -41,6 +42,7 @@
 /* Begin PBXFileReference section */
 		058557BA273AAA24004C7B11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		058557D8273AAEEB004C7B11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0A062C282A9D4ABE002479D3 /* CapViewMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapViewMode.swift; sourceTree = "<group>"; };
 		0A2FA1C52A90306800504A45 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		0A2FA1C72A90309600504A45 /* RocketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketView.swift; sourceTree = "<group>"; };
 		0A2FA1C92A90441200504A45 /* MissionUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionUI.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				0A2FA1CB2A90443500504A45 /* CapsuleUI.swift */,
+				0A062C282A9D4ABE002479D3 /* CapViewMode.swift */,
 			);
 			path = Capsoule;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				0A2FA1CE2A90485000504A45 /* TabItem.swift in Sources */,
 				0A2FA1C62A90306800504A45 /* DashboardView.swift in Sources */,
 				0A2FA1D82A969B8C00504A45 /* MissionCardView.swift in Sources */,
+				0A062C292A9D4ABE002479D3 /* CapViewMode.swift in Sources */,
 				0A2FA1C82A90309600504A45 /* RocketView.swift in Sources */,
 				7555FF83242A565900829871 /* ContentView.swift in Sources */,
 				0A2FA1D02A904B5D00504A45 /* RocketViewMode.swift in Sources */,
