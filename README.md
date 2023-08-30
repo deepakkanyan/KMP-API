@@ -6,17 +6,15 @@ Utilizing the power of Kotlin Multiplatform, this project demonstrates how to sh
 # Data Source
 
 This project fetches its data from the SpaceX Data API. The SpaceX API provides company, vehicle, launch, and event data for SpaceX.
-[SpaceX Rockets API Endpoint](https://api.spacexdata.com/v4/rockets)
+[SpaceX Rockets API Endpoint](https://api.spacexdata.com/)
 
-# Screenshots
+# Demo
 <table>
   <tr>
-    <td>Android</td>
-     <td>iOS</td>
+    <td>Android/iOS</td>
   </tr>
   <tr>
-    <td valign="top"><gif src="https://github.com/deepakkanyan/KMP-API/blob/master/images/Untitled_Project_V1.gif" alt="Android screenshot" width="200"/></td>
-    <td valign="top"><img src="https://github.com/deepakkanyan/KMP-API/blob/master/images/ios.png" alt="iOS screenshot" width="200"/></td>
+    <td valign="top"><img src="https://github.com/deepakkanyan/KMP-API/blob/master/images/Untitled_Project_V1.gif" alt="iOS screenshot" width="400"/></td>
   </tr>
  </table>
 
