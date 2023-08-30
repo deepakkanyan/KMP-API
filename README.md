@@ -54,3 +54,12 @@ This project fetches its data from the SpaceX Data API. The SpaceX API provides 
 
 - Kotlin for making multiplatform development a reality.
 - The maintainers and contributors of the libraries used in this project.
+
+## Follow me on
+
+[🤖 StackOverFlow](https://stackoverflow.com/users/3995941/deepak-ror)   
+
+[📚 Medium](https://medium.com/@deepak.kanyan.07)    
+
+[📱 LinkedIn](https://www.linkedin.com/in/deepak-k-1611629a/)  
+
