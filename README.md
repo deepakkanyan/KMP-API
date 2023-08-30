@@ -6,7 +6,7 @@ Utilizing the power of Kotlin Multiplatform, this project demonstrates how to sh
 # Data Source
 
 This project fetches its data from the SpaceX Data API. The SpaceX API provides company, vehicle, launch, and event data for SpaceX.
-[SpaceX Rockets API Endpoint](https://api.spacexdata.com/)
+[SpaceX Rockets API Endpoint](https://docs.spacexdata.com/)
 
 # Demo
 <table>
