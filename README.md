@@ -15,7 +15,7 @@ This project fetches its data from the SpaceX Data API. The SpaceX API provides 
      <td>iOS</td>
   </tr>
   <tr>
-    <td valign="top"><img src="https://github.com/deepakkanyan/KMP-API/blob/master/images/android.png" alt="Android screenshot" width="200"/></td>
+    <td valign="top"><gif src="https://github.com/deepakkanyan/KMP-API/blob/master/images/Untitled_Project_V1.gif" alt="Android screenshot" width="200"/></td>
     <td valign="top"><img src="https://github.com/deepakkanyan/KMP-API/blob/master/images/ios.png" alt="iOS screenshot" width="200"/></td>
   </tr>
  </table>
