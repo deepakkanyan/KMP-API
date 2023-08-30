@@ -22,6 +22,7 @@
 		0A2FA1D82A969B8C00504A45 /* MissionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2FA1D72A969B8C00504A45 /* MissionCardView.swift */; };
 		0A554D7E2A9A3C4100009D59 /* LinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A554D7D2A9A3C4100009D59 /* LinkView.swift */; };
 		0A554D812A9A4A8C00009D59 /* MyColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A554D802A9A4A8C00009D59 /* MyColors.swift */; };
+		0A633DD92A9F046700DB10DB /* CapCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A633DD82A9F046700DB10DB /* CapCard.swift */; };
 		2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2152FB032600AC8F00CF470E /* iOSApp.swift */; };
 		7555FF83242A565900829871 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555FF82242A565900829871 /* ContentView.swift */; };
 /* End PBXBuildFile section */
@@ -55,6 +56,7 @@
 		0A2FA1D72A969B8C00504A45 /* MissionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionCardView.swift; sourceTree = "<group>"; };
 		0A554D7D2A9A3C4100009D59 /* LinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkView.swift; sourceTree = "<group>"; };
 		0A554D802A9A4A8C00009D59 /* MyColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColors.swift; sourceTree = "<group>"; };
+		0A633DD82A9F046700DB10DB /* CapCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapCard.swift; sourceTree = "<group>"; };
 		2152FB032600AC8F00CF470E /* iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSApp.swift; sourceTree = "<group>"; };
 		7555FF7B242A565900829871 /* Kmp_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kmp_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7555FF82242A565900829871 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 			children = (
 				0A2FA1CB2A90443500504A45 /* CapsuleUI.swift */,
 				0A062C282A9D4ABE002479D3 /* CapViewMode.swift */,
+				0A633DD82A9F046700DB10DB /* CapCard.swift */,
 			);
 			path = Capsoule;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				0A2FA1D82A969B8C00504A45 /* MissionCardView.swift in Sources */,
 				0A062C292A9D4ABE002479D3 /* CapViewMode.swift in Sources */,
 				0A2FA1C82A90309600504A45 /* RocketView.swift in Sources */,
+				0A633DD92A9F046700DB10DB /* CapCard.swift in Sources */,
 				7555FF83242A565900829871 /* ContentView.swift in Sources */,
 				0A2FA1D02A904B5D00504A45 /* RocketViewMode.swift in Sources */,
 				0A554D7E2A9A3C4100009D59 /* LinkView.swift in Sources */,
