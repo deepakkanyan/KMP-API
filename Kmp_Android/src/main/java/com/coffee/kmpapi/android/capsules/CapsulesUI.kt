@@ -96,33 +96,3 @@ fun ShowCapList(data: List<CapModel>) {
 }
 
 
-@Preview
-@Composable
-fun previewIt() {
-// Create fake data for CapModel
-    val capModel1 = CapModel(
-        reuseCount = 5,
-        waterLandings = 2,
-        landLandings = 3,
-        lastUpdate = "cmp=com.coffee.kmpapi.android/.MainActivity",
-        launches = listOf("Launch1", "Launch2", "Launch3"),
-        serial = "Serial123",
-        status = "Active",
-        type = "TypeA",
-        id = "ID001"
-    )
-
-    val capModel2 = CapModel(
-        reuseCount = 10,
-        waterLandings = 4,
-        landLandings = 6,
-        lastUpdate = "cmp=com.coffee.kmpapi.android/.MainActivity",
-        launches = listOf("Launch4", "Launch5"),
-        serial = "Serial456",
-        status = "Inactive",
-        type = "TypeB",
-        id = "ID002"
-    )
-    ShowCapList(data = listOf(capModel1, capModel2))
-}
-
