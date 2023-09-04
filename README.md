@@ -3,6 +3,10 @@
 KMP-API is a Kotlin Multiplatform project aimed at to understand Simple API code shared on Both platform. 
 Utilizing the power of Kotlin Multiplatform, this project demonstrates how to share code seamlessly across Android, iOS.
 
+<tr>
+    <td valign="top"><img src="https://github.com/deepakkanyan/KMP-API/blob/master/images/Untitled_Project_V1.gif" alt="iOS screenshot" width="400"/></td>
+  </tr>
+
 # Data Source
 
 This project fetches its data from the SpaceX Data API. The SpaceX API provides company, vehicle, launch, and event data for SpaceX.
