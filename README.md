@@ -19,7 +19,6 @@ This project fetches its data from the SpaceX Data API. The SpaceX API provides 
  </table>
 
 ## Features
-
 - Share code across Android and iOS.
 - Kotlin serialization with version `1.8.20`.
 - Coroutines support with version `1.7.1`.
